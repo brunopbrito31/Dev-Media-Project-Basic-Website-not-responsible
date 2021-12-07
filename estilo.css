@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+.cont-pag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-pag .info-livro, .cont-pag .mark-livro{
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+
+.cont-pag .info-livro h1{
+    margin-bottom: 6px;
+}
+
+.cont-pag .info-livro p, .cont-pag .desc-livro p, .cont-pag .info-autor p, .cont-pag .mark-livro p {
+    margin: 5px auto;
+    width:40%;
+    text-align: center;
+}
+
+.lin-botao{
+    text-decoration: none;
+}
+
+.bt-comprar{
+    background-color: darkolivegreen;
+    color:white;
+    width:10%;
+    height: 35px;
+    margin: 10px auto;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 15px 15px 15px;
+    border-radius: 25px;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.cont-pag .desc-livro, .cont-pag .info-autor, .mark-livro .info-autor{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cont-pag .info-autor h2, .cont-pag .info-autor img {
+    margin-bottom: 10px;
+}
+
+.cont-pag .info-autor img{
+    width: 14%;
+}
+
+.cont-pag .mark-livro{
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+
+
+
